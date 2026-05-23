@@ -9,56 +9,49 @@ redirect_from:
 
 {% include base_path %}
 
+A PDF version is available [here](../assets/CV_ZhengyangHu.pdf).
+
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* **Ph.D., Electrical and Computer Engineering**, The University of Hong Kong, 2023.08 – present
+  * Advisors: Dr. Yanchao Yang & Prof. Kaibin Huang
+* **B.Sc., Mathematics and Applied Mathematics**, School of the Gifted Young, University of Science and Technology of China (USTC), 2019.09 – 2023.06
+  * Major-course GPA: 3.87 / 4.3
 
-Work experience
+Research interests
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Foundation models for statistical inference (mutual information, dependency measurement)
+* Training dynamics and interpretability of Transformers / LLMs
+* Information theory and representation learning
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
+Experience
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* **Visiting Researcher**, Huawei HPC Group (RAFT) — LLM Training Dynamics & Interpretability, 2024.09 – 2026.01
+  * Designed real-time representation-monitoring metrics for LLM pre-training; validated across multi-scale Transformers for early warning of training anomalies.
+* **Quantitative Research Intern**, Chengqi Asset Management, 2022.08 – 2022.12
+  * Built, backtested, and shipped 5 alpha factors integrated into the firm's factor / strategy library.
+
+Selected competitions
+======
+* **Lingjun Investment Quant Competition** — A-Share Market Microstructure Prediction (Kaggle), 2026.03 – 2026.04
+  * Team ranked **Top 13–15**. Predicted intraday multi-horizon returns across 500 A-share stocks from Level-2 high-frequency features; benchmarked XGBoost / LightGBM / GRU / LSTM / Transformer with Optuna tuning. Single XGBoost reached test R² = 0.030 (matching the runner-up's best single model).
 
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
+
 Talks
 ======
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
-  
-Teaching
+
+Skills
 ======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* **Languages**: Python, C/C++, MATLAB, SQL
+* **ML / DL**: PyTorch, distributed multi-GPU training (DeepSpeed / Megatron-style), Transformers, HuggingFace
+* **Data science**: NumPy / Pandas, XGBoost, LightGBM, Optuna
+* **Tools**: Linux, Git, Slurm, Docker
+* **Languages (Human)**: Mandarin (native), English (TOEFL iBT 105, GRE 322)

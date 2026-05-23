@@ -7,13 +7,13 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Zhengyang Hu / Site Title"
+title                    : "Zhengyang Hu"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "personal description"
+name                     : &name "Zhengyang Hu"
+description              : &description "PhD student at HKU working on dependence modeling, foundation models for data science, and LLM interpretability."
 url                      : https://datou30.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "datou30/datou30.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -22,16 +22,16 @@ author:
   # Biographic information
   avatar           : "photo.jpg"
   name             : "Zhengyang Hu"
-  pronouns         : # example: "she/her"  
-  bio              : "Newbie PhD in deep learning."
+  pronouns         : # example: "she/her"
+  bio              : "PhD Student, Department of ECE, HKU"
   location         : "Hong Kong"
-  employer         : "the University of Hong Kong"
+  employer         : "The University of Hong Kong"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "u3010250@connect.hku.hk"
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=qe-fgwYAAAAJ&hl=zh-CN"
+  googlescholar    : "https://scholar.google.com/citations?user=qe-fgwYAAAAJ&hl=en"
   impactstory      : # URL
   orcid            : # URL
   pubmed           : # URL
