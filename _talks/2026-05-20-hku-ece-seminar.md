@@ -5,7 +5,6 @@ type: "Seminar"
 permalink: /talks/2026-05-20-hku-ece-seminar
 venue: "Department of Electrical and Electronic Engineering, The University of Hong Kong"
 date: 2026-05-20
-location: "Hong Kong, China"
 ---
 
 Invited departmental seminar at HKU ECE (20 May 2026, 11:00 AM – 12:00 PM).
