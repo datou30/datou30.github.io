@@ -26,6 +26,7 @@ News
 * **October 2026** — Our team placed 2nd in Susquehanna (SIG)'s PhD Brainteaser Battle; I independently solved the competition's hardest puzzle.
 * **September 2026** — Our team placed 1st in the Quant Challenge at Optiver Quant Focus, a three-day programme for PhD students. I independently solved 5 of the 12 mathematics and brainteaser problems.
 * **2026** — *InfoAtlas: A Foundation Model for Zero-Shot Statistical Dependence Estimate* accepted to **ICML 2026**.
+* **May 2026** — Invited talk at HKU ECE: *Foundation-style Methods for Real-Time Statistical Dependency Measurement and Its Applications.*
 * **2024** — *InfoNet: Neural Estimation of Mutual Information without Test-Time Optimization* accepted to **ICML 2024 (Oral)**.
 
 Contact
