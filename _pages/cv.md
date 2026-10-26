@@ -33,7 +33,7 @@ Aug–Oct 2026
 
 Investigated whether dependence measures can serve as training losses. Using a fixed MLP architecture for five-day A-share return prediction, designed a post-training refitting strategy for dependence-based training, improving mean cross-sectional test IC from 0.105 to 0.12 versus an MSE baseline (both 10-seed ensembles).
 
-### Huawei HPC Group (RAFT) — On-site Student Researcher
+### Huawei HPC Group (RAFT) — External On-site Student Researcher
 
 Sep 2024–Jan 2026
 
@@ -52,7 +52,7 @@ Selected Research & Publications
 
    Z. Hu et al. · ICML 2024 (Oral)
 
-   Developed a pretrained tabular model for mutual information estimation between random variables, achieving 1,000× faster estimation and higher accuracy on low-dimensional benchmarks.
+   Developed a tabular foundation model for estimating dependence between random variables, achieving 1,000× faster estimation and higher accuracy on low-dimensional benchmarks. Downstream applications include feature selection, image segmentation and keyframe extraction.
 
 2. **[InfoAtlas: A Foundation Model for Zero-Shot Statistical Dependence Estimate]({{ '/publication/2026-infoatlas' | relative_url }})**
 
@@ -64,7 +64,7 @@ Selected Research & Publications
 
    Z. Hu et al. · ICLR (under review)
 
-   Developed online diagnostics using statistical relationships among hidden representations to detect training anomalies, including overfitting, data anomalies and loss spikes during Transformer training.
+   Developed online diagnostics based on statistical dependence among hidden representations to detect anomalies during Transformer training, including overfitting, data anomalies and loss spikes.
 
 4. **[DensityFM: Foundation-Style Pretraining for Density Estimation]({{ '/publication/2026-densityfm' | relative_url }})**
 

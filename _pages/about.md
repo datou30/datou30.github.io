@@ -13,7 +13,7 @@ I am a PhD candidate at [the University of Hong Kong](https://www.hku.hk/), advi
 
 My research focuses on **tabular foundation model pretraining**, **nonlinear correlation modelling**, and **LLM reasoning**. I develop pretrained tabular models for mutual information, statistical dependence and density estimation, and study how relationships among hidden representations can help diagnose Transformer training.
 
-My industry experience includes a Machine Learning QR internship at **Minghong Investment** (Aug–Oct 2026) and an On-site Student Researcher role with **Huawei's HPC Group (RAFT)** (Sep 2024–Jan 2026).
+My industry experience includes a Machine Learning QR internship at **Minghong Investment** (Aug–Oct 2026) and an External On-site Student Researcher role with **Huawei's HPC Group (RAFT)** (Sep 2024–Jan 2026).
 
 Research interests
 ======
@@ -26,7 +26,6 @@ News
 * **October 2026** — Our team placed 2nd in Susquehanna (SIG)'s PhD Brainteaser Battle; I independently solved the competition's hardest puzzle.
 * **September 2026** — Our team placed 1st in the Quant Challenge at Optiver Quant Focus, a three-day programme for PhD students. I independently solved 5 of the 12 mathematics and brainteaser problems.
 * **2026** — *InfoAtlas: A Foundation Model for Zero-Shot Statistical Dependence Estimate* accepted to **ICML 2026**.
-* **May 2026** — Invited talk at HKU ECE: *Foundation-style Methods for Real-Time Statistical Dependency Measurement and Its Applications.*
 * **2024** — *InfoNet: Neural Estimation of Mutual Information without Test-Time Optimization* accepted to **ICML 2024 (Oral)**.
 
 Contact

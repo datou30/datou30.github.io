@@ -6,11 +6,23 @@ author_profile: true
 ---
 
 {% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+<p>You can also find my articles on <a href="{{ site.author.googlescholar }}">Google Scholar</a>.</p>
 {% endif %}
 
-{% include base_path %}
+{% assign papers = site.publications | sort: 'cv_order' %}
 
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
+## Published papers
+
+{% for post in papers %}
+  {% if post.status == 'published' %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
+
+## Manuscripts under review
+
+{% for post in papers %}
+  {% if post.status == 'under-review' %}
+    {% include archive-single.html %}
+  {% endif %}
 {% endfor %}
