@@ -1,12 +1,14 @@
 ---
-title: "A Foundation-style Model for Zero-Shot Statistical Dependency Measurement"
+title: 'InfoAtlas: A Foundation Model for Zero-Shot Statistical Dependence Estimate'
 collection: publications
 permalink: /publication/2026-infoatlas
-excerpt: 'Introduced InfoAtlas, a full upgrade of InfoNet: redesigned architecture and synthetic dataset supporting arbitrary dimensions; pre-trained ~1 month on a 32xH200 cluster into a 1B-parameter model, zero-shot ready and evaluated across broader downstream tasks.'
+excerpt: Scaled InfoNet to high-dimensional dependence estimation through richer synthetic data and architecture design. Built data-generation and distributed pretraining pipelines for a 600M-parameter model on 32 H200 GPUs.
 date: 2026-07-01
-venue: 'International Conference on Machine Learning (ICML)'
-citation: 'Zhengyang Hu*, Yanzhi Chen*, Hanxiang Ren, Qunsong Zeng, Youyi Zheng, Adrian Weller, Kaibin Huang, Yanchao Yang. (2026). "A Foundation-style Model for Zero-Shot Statistical Dependency Measurement." <i>ICML 2026</i>. (*Equal contribution.)'
+venue: ICML 2026
+citation: 'Zhengyang Hu*, Yanzhi Chen*, Hanxiang Ren, Qunsong Zeng, Youyi Zheng, Adrian Weller, Kaibin Huang, Yanchao Yang. (2026). "InfoAtlas: A Foundation Model for Zero-Shot Statistical Dependence Estimate." <i>ICML 2026</i>.'
+status: published
 ---
-**InfoAtlas** is a full upgrade of InfoNet that extends the foundation-model paradigm to **arbitrary-dimensional** statistical dependency measurement. We redesign both the architecture and the synthetic pre-training distribution, and scale the model to ~1B parameters by pre-training for approximately one month on a 32xH200 GPU cluster. The resulting model is zero-shot ready and demonstrates strong performance across a substantially broader set of downstream tasks than InfoNet.
+
+Scaled InfoNet to high-dimensional dependence estimation through richer synthetic data and architecture design. Built data-generation and distributed pretraining pipelines for a 600M-parameter model on 32 H200 GPUs.
 
 <i>Authors:</i> Zhengyang Hu\*, Yanzhi Chen\*, Hanxiang Ren, Qunsong Zeng, Youyi Zheng, Adrian Weller, Kaibin Huang, Yanchao Yang. (\*Equal contribution.)

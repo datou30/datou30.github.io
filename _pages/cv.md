@@ -7,51 +7,87 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
-
-A PDF version is available [here](../assets/CV_ZhengyangHu.pdf).
+[Download English CV (PDF)]({{ '/assets/CV_ZhengyangHu.pdf' | relative_url }}) · [下载中文简历 (PDF)]({{ '/assets/CV_ZhengyangHu_zh.pdf' | relative_url }})
 
 Education
 ======
-* **Ph.D., Electrical and Computer Engineering**, The University of Hong Kong, 2023.08 – present
-  * Advisors: Dr. Yanchao Yang & Prof. Kaibin Huang
-* **B.Sc., Mathematics and Applied Mathematics**, School of the Gifted Young, University of Science and Technology of China (USTC), 2019.09 – 2023.06
-  * Major-course GPA: 3.87 / 4.3
+* **The University of Hong Kong** · Aug 2023–Present
+  * PhD in Electrical and Computer Engineering · GPA: 3.9 / 4.3
+  * Advisors: Dr. Yanchao Yang and Prof. Kaibin Huang
+* **University of Science and Technology of China** · Sep 2019–Jun 2023
+  * BSc in Mathematics and Applied Mathematics · School of the Gifted Young
+  * Major GPA: 3.87 / 4.3
 
-Research interests
+Research areas
 ======
-* Foundation models for statistical inference (mutual information, dependency measurement)
-* Training dynamics and interpretability of Transformers / LLMs
-* Information theory and representation learning
+* Tabular foundation model pretraining
+* Nonlinear correlation modelling
+* LLM reasoning
 
-Experience
+Research & Industry Experience
 ======
-* **Visiting Researcher**, Huawei HPC Group (RAFT) — LLM Training Dynamics & Interpretability, 2024.09 – 2026.01
-  * Designed real-time representation-monitoring metrics for LLM pre-training; validated across multi-scale Transformers for early warning of training anomalies.
-* **Quantitative Research Intern**, Chengqi Asset Management, 2022.08 – 2022.12
-  * Built, backtested, and shipped 5 alpha factors integrated into the firm's factor / strategy library.
 
-Selected competitions
-======
-* **Lingjun Investment Quant Competition** — A-Share Market Microstructure Prediction (Kaggle), 2026.03 – 2026.04
-  * Team ranked **Top 13–15**. Predicted intraday multi-horizon returns across 500 A-share stocks from Level-2 high-frequency features; benchmarked XGBoost / LightGBM / GRU / LSTM / Transformer with Optuna tuning. Single XGBoost reached test R² = 0.030 (matching the runner-up's best single model).
+### Minghong Investment — Machine Learning QR Intern
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+Aug–Oct 2026
 
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
+Investigated whether dependence measures can serve as training losses. Using a fixed MLP architecture for five-day A-share return prediction, designed a post-training refitting strategy for dependence-based training, improving mean cross-sectional test IC from 0.105 to 0.12 versus an MSE baseline (both 10-seed ensembles).
 
-Skills
+### Huawei HPC Group (RAFT) — On-site Student Researcher
+
+Sep 2024–Jan 2026
+
+Developed representation-based diagnostics to monitor model training and validated them on NanoGPT, ViT and Pythia; the resulting research was submitted to ICLR.
+
+### ChengQi Asset Management — Quant Research Intern
+
+Aug–Nov 2022
+
+Researched alpha strategies using diverse data sources, with five accepted into the firm's alpha pool.
+
+Selected Research & Publications
 ======
-* **Languages**: Python, C/C++, MATLAB, SQL
-* **ML / DL**: PyTorch, distributed multi-GPU training (DeepSpeed / Megatron-style), Transformers, HuggingFace
-* **Data science**: NumPy / Pandas, XGBoost, LightGBM, Optuna
-* **Tools**: Linux, Git, Slurm, Docker
-* **Languages (Human)**: Mandarin (native), English (TOEFL iBT 105, GRE 322)
+
+1. **[InfoNet: Neural Estimation of Mutual Information without Test-Time Optimization]({{ '/publication/2024-infonet' | relative_url }})**
+
+   Z. Hu et al. · ICML 2024 (Oral)
+
+   Developed a pretrained tabular model for mutual information estimation between random variables, achieving 1,000× faster estimation and higher accuracy on low-dimensional benchmarks.
+
+2. **[InfoAtlas: A Foundation Model for Zero-Shot Statistical Dependence Estimate]({{ '/publication/2026-infoatlas' | relative_url }})**
+
+   Z. Hu et al. · ICML 2026
+
+   Scaled InfoNet to high-dimensional dependence estimation through richer synthetic data and architecture design. Built data-generation and distributed pretraining pipelines for a 600M-parameter model on 32 H200 GPUs.
+
+3. **[From Anisotropy to Anomaly: An Online Geometric Diagnostics Framework for Transformer Training]({{ '/publication/2026-anisotropy-anomaly' | relative_url }})**
+
+   Z. Hu et al. · ICLR (under review)
+
+   Developed online diagnostics using statistical relationships among hidden representations to detect training anomalies, including overfitting, data anomalies and loss spikes during Transformer training.
+
+4. **[DensityFM: Foundation-Style Pretraining for Density Estimation]({{ '/publication/2026-densityfm' | relative_url }})**
+
+   Z. Hu et al. · ICLR (under review)
+
+   Pretrained a tabular foundation model for density estimation, outperforming all evaluated classical baselines on synthetic and real-world benchmarks. Applications include tail-risk estimation and outlier detection.
+
+Additional Experience
+======
+
+### Optiver Quant Focus — Three-day programme for PhD students.
+
+Sep 2026
+
+Team placed 1st in the Quant Challenge; independently solved 5 of the 12 mathematics and brainteaser problems.
+
+### Susquehanna (SIG) PhD Brainteaser Battle
+
+Oct 2026
+
+Team placed 2nd; independently solved the competition's hardest puzzle.
+
+Skills & Tests
+======
+* **Technical skills:** Python · PyTorch · pandas
+* **Tests:** TOEFL iBT 105 · GRE 322 (Quant 170)
